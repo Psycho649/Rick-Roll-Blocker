@@ -2,8 +2,11 @@
     "name": "Rick Roll Blocker",
     "description": "Your friends always rickroll you? This is your answer. With Rick Roll Blocker, you will never get rick rolled again!",
     "version": "1.0",
-    "manifest_version": 3
+    "icon":"icon.ico",
+    "manifest_version": 3,
+    "author":"Blocky",
     "background": {
         "service_worker": "background.js"
     }
-  }
+    
+}
