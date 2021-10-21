@@ -3,7 +3,7 @@ chrome.webRequest.onBeforeRequest.addListener( //add listener
         return {cancel: true };
     },
     {
-        urls:[https://] //urls to block
+        urls:[https://raw.githubusercontent.com/Psycho649/Rick-Roll-Blocker/main/block.json] //urls to block
     },
     ["blocking"]
 );
