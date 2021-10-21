@@ -3,7 +3,7 @@ chrome.webRequest.onBeforeRequest.addListener( //add listener
         return {cancel: true };
     },
     {
-        urls:[] //urls to block
+        urls:[https://] //urls to block
     },
     ["blocking"]
 );
