@@ -2,11 +2,35 @@
     "name": "Rick Roll Blocker",
     "description": "Your friends always rickroll you? This is your answer. With Rick Roll Blocker, you will never get rick rolled again!",
     "version": "1.0",
-    "icon":"icon.ico",
+    "icons":{
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png",
+        "128": "icons/icon128.png"
+    },
     "manifest_version": 3,
     "author":"Blocky",
     "background": {
         "service_worker": "background.js"
-    }
+    },
+    "permissions": [
+        "tabs",
+        "bookmarks",
+        "unlimitedStorage",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "activeTab",
+        "webRequest",
+        "scripting"
+        
+      ],
+      
+      "host_permissions": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+        
+        
+      ]
     
 }
